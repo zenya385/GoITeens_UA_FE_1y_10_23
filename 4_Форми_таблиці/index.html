@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форми та таблиці</title>
+
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+      border: 1px solid #000;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <th>Номер поїзду</th>
+      <th>Колія</th>
+      <th>Час у дорозі</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>401</td>
+        <td>Київ - Ковель</td>
+        <td>5 год</td>
+      </tr>
+      <tr>
+        <td>701</td>
+        <td>Харків - Дніпро</td>
+        <td>4 год</td>
+      </tr>
+      <tr>
+        <td>256</td>
+        <td>Львів - Одеса</td>
+        <td>6 год</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>hello &copy; &#169; </p>
+
+
+  <form name="signup_form" autocomplete="on" novalidate>
+    <label>
+      mail
+      <input type="email" name="email" placeholder="qwer@mail.com" />
+    </label>
+    <label>
+      name
+      <input type="tel" name="name" placeholder="Mariya" />
+    </label>
+
+    <label>
+      Password
+      <input type="password" name="password" />
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <form>
+    <p>What are your hobbies?</p>
+    <label>
+      <input type="checkbox" name="hobby" value="music" checked />
+      Music
+    </label>
+    <label>
+      <input type="checkbox" name="hobby" value="sports" checked />
+      Sports
+    </label>
+    <label>
+      <input type="checkbox" name="hobby" value="reading" />
+      Reading
+    </label>
+  </form>
+
+  <form>
+    <label>
+      Date
+      <input type="date" min="1920-01-01" max="2020-01-01" />
+    </label>
+
+    <label>
+      Time
+      <input type="time" />
+    </label>
+
+    <label>
+      Date and time
+      <input type="datetime-local" min="1920-01-01T00:00" max="2020-01-01T00:00" />
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+
+</html>

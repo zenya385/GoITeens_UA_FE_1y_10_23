@@ -1,0 +1,75 @@
+h1 {
+  color: yellowgreen;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 65px;
+}
+
+h2 {
+  color: blue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+/* span {
+  color: red;
+} */
+
+a {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ====== селектор класу ======= */
+
+main>.qwerty {
+  color: rgb(30, 255, 0);
+}
+
+.main-title {
+  color: red;
+}
+
+
+/* ====== селектор ідентифікатора ======= */
+#title-hi {
+  color: rgb(255, 0, 225);
+}
+
+/* ====== Селектор груп ======= */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+/* ====== Селектор атрибуту ======= */
+a[href="http"] {
+  color: black;
+}
+
+/* a {
+  color: beige;
+} */
+
+.span1 {
+  color: black;
+}
+
+
+a[href="http"] {
+  color: black;
+}
+
+h2[class*=main] {
+  color: rgb(41, 38, 38)
+}
