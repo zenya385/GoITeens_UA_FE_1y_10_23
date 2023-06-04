@@ -1,0 +1,48 @@
+.list {
+  list-style: none;
+}
+
+.list-title {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #09c9bf;
+
+}
+
+.list-title:not(:last-child) {
+  margin-right: 10px;
+}
+
+.list-title:nth-child(3n) {
+  background-color: #35068b;
+}
+
+.list-title:nth-child(1) {
+  background-color: #8b3006;
+}
+
+.list-title:nth-child(2) {
+  background-color: #8b0648;
+}
+
+.list-title:nth-child(3) {
+  background-color: #061e8b;
+}
+
+.list-title:nth-child(4) {
+  background-color: #688b06;
+}
+
+.list-title:nth-child(5) {
+  background-color: #068b0d;
+}
+
+.list-title:nth-child(6) {
+  background-color: #06568b;
+}
+
+.list-title:nth-child(7) {
+  background-color: #87068b;
+}

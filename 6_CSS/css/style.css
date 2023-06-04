@@ -14,9 +14,10 @@ h2 {
 }
 
 a {
-  font-size: 40px;
-  font-weight: bold;
+  /* font-size: 40px; */
+  /* font-weight: bold; */
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -113,3 +114,56 @@ ul p {
 li>p {
   color: rgb(4, 0, 255);
 }
+
+li+p {
+  color: rgb(0, 255, 255);
+}
+
+
+
+
+.post {
+  color: #07e74b;
+  font-size: 30px;
+}
+
+.post:hover {
+  color: aqua;
+  background-color: #c9eb0d;
+}
+
+.post a:visited {
+  color: black;
+}
+
+.post a:link {
+  color: rgb(180, 8, 8);
+}
+
+.list {
+  color: black;
+}
+
+/* .list-item:first-child,
+.list-item:last-child {
+  color: #07e74b;
+} */
+
+.list-item:nth-child(even) {
+  color: #0dd1eb;
+}
+
+.list-item:nth-child(odd) {
+  color: #480deb;
+}
+
+.list-item:nth-child(-n+2) {
+  color: #fd6500;
+}
+
+
+.list-num {
+  list-style: none;
+}
+
+.list-num-item {}
