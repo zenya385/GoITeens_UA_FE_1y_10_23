@@ -46,3 +46,38 @@
 .list-title:nth-child(7) {
   background-color: #87068b;
 }
+
+
+
+
+
+ul a {
+  /* color: red; */
+}
+
+
+ul>li {
+  color: green;
+}
+
+
+ul>li>a {
+  color: #ffffff;
+}
+
+.qwerty a {
+  color: #ffffff;
+
+}
+
+.qwerty>.list a {
+  color: #ffffff;
+}
+
+/* ================================ */
+
+.text-box>h3 {
+  color: pink
+}
+
+.yellow {}
