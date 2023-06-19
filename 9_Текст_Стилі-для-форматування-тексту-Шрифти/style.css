@@ -1,0 +1,67 @@
+.title:nth-child(1) {
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.title:nth-child(2) {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+}
+
+.title:nth-child(3) {
+  font-family: Tangerine;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+
+.title:nth-child(4) {
+  font-family: 'Raleway';
+  font-weight: 500;
+  text-align: end;
+}
+
+.title:nth-child(5) {
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+}
+
+
+.text {
+  font-family: Tangerine;
+  /* font-style: 40px; */
+  font-weight: 700;
+  /* text-indent: 15px; */
+  word-spacing: 10px;
+}
+
+.verse {
+  font-family: Raleway;
+  /* font-weight: 700; */
+  font-size: 15px;
+}
+
+.verse::first-letter {
+  /* font-family: Tangerine; */
+  color: red;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.verse::first-line {
+  /* font-family: Tangerine; */
+  color: rgb(229, 255, 0);
+  /* font-weight: 700; */
+  font-size: 20px;
+}
+
+.verse::selection {
+  background-color: #eb0fb4;
+}
