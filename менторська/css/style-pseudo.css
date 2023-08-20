@@ -81,3 +81,122 @@ ul>li>a {
 }
 
 .yellow {}
+
+
+/* ==================== ::before ============================= */
+
+
+.list {
+  display: flex;
+  column-gap: 30px;
+
+}
+
+.item {
+  outline: 1px solid red;
+  border-radius: 3px;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 1.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 3.12);
+}
+
+.item::before {
+  content: '';
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item:nth-child(1)::before {
+  /* content: '';
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center; */
+  background-image: url(../img/clock.svg);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item:nth-child(2)::before {
+  background-image: url(../img/diagram.svg);
+}
+
+.item:nth-child(3)::before {
+  background-image: url(../img/clock.svg);
+}
+
+.item:nth-child(4)::before {
+  background-image: url(../img/diagram.svg);
+}
+
+.item:nth-child(5)::before {
+  background-image: url(../img/clock.svg);
+}
+
+.item:nth-child(6)::before {
+  background-image: url(../img/diagram.svg);
+}
+
+.tittle {}
+
+.text {}
+
+
+/* ======================= bg ================== */
+
+
+.bg {
+  height: 600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/ImgBG.jpg);
+  /* background-image: url(../img/ImgBG.jpg); */
+  background-color: #C4C4C4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.img {}
+
+
+.hover .list {
+  width: 50%;
+  margin: auto;
+  margin: 300px;
+  gap: 100px;
+
+}
+
+.hover .item {
+  display: flex;
+  justify-content: center;
+  outline: 0.5px solid green;
+  padding: 30px;
+}
+
+.link {
+  color: #068b0d;
+  padding: 3px;
+  text-decoration: none;
+}
+
+
+.hover .item:hover .link {
+  color: #35068b;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.hover .item:hover {
+
+  cursor: pointer;
+}
+
+
+.hover .link {
+  outline: 1px solid rgb(126, 176, 126);
+}

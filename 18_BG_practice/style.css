@@ -1,0 +1,29 @@
+/* https: //3627081962-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTOxx7nSUyW1jh74KR9zH%2Fuploads%2FnPPLnRZI7xtAz5jhHVZQ%2F3.png?alt=media
+https: //3627081962-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTOxx7nSUyW1jh74KR9zH%2Fuploads%2FkEf0gt9OaClml4Go8gR1%2F2.png?alt=media
+https: //3627081962-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTOxx7nSUyW1jh74KR9zH%2Fuploads%2FBZPkHmArIeOC8e2lAzyp%2F1.png?alt=media
+https: //3627081962-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTOxx7nSUyW1jh74KR9zH%2Fuploads%2FPYXSGFtplbOpQyglsXzb%2F0.jpeg?alt=media
+ */
+body {
+  /* background-color: pink; */
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  outline: 1px solid black;
+}
+
+li:nth-child(2) img {
+  background-color: palevioletred;
+}
+
+li:nth-of-type(3) img {
+  background-color: teal;
+}
+
+li:nth-of-type(4) img {
+  background-color: orange;
+}
