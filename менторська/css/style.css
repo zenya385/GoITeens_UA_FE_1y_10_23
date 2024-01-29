@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.item:hover {
+    color: #09c9bf;
+}
+
+.active-page::after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+}
