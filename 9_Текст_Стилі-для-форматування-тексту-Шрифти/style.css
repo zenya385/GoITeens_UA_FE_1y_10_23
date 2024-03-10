@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: "Gilroy";
+  src:
+    url("/font/Gilroy-Semibold.woff2") format("woff2"),
+    url("/font/Gilroy-Semibold.woff") format("woff");
+}
+
+
+
 .title:nth-child(1) {
   font-family: Raleway;
   font-weight: 700;
@@ -64,4 +74,9 @@
 
 .verse::selection {
   background-color: #eb0fb4;
+}
+
+.heading{
+  font-family: "Gilroy";
+  font-size: 50px;
 }
